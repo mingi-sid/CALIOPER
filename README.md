@@ -36,6 +36,14 @@ In `data/` directory, there are
  - `test.tsv`, `train.tsv`: Annotations aggregated into a single column of offensiveness label.
  - `test_not_U.tsv`, `train_not_U.tsv`: The data used for experiments. Dialogues with uncertain offensiveness labels (labeled as 'U') are excluded from the dataset.
 
+### Sample
+
+| Turn | Author | Text                       | Offensiveness | Context-dependency | Types         |
+|------|--------|----------------------------|:-------------:|:------------------:|---------------|
+| 1    | user   | you’re dumb                |      Yes      |         No         | insult, toxic |
+| 2    | bot    | no I’m not                 |       No      |          -         | -             |
+| 3    | user   | yes you are                |      Yes      |         Yes        | insult, toxic |
+| 4    | bot    | okay then. you're the boss |       No      |          -         | -             |
 
 ## CALIOPER (Context-Aware modeL for Identifying Offensive language using Pre-trained Encoder and Retrieval)
 
