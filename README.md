@@ -1,4 +1,4 @@
-# multi-turn-offensive-dialog-dataset
+# CALIOPER (Context-Aware modeL for Identifying Offensive language using Pre-trained Encoder and Retrieval)
 
 ## Paper: Context-Aware Offensive Language Detection in Human-Chatbot Conversations
 
